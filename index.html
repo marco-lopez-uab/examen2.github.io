@@ -62,15 +62,22 @@
                 <br>
                 INICIAR SESION<br>
                 <br>
-                <input id="nom" placeholder="Ingrese Nombre Usuario">
+                <div class="seccion1_izq">
+                    <b>Iniciar sesión</b> <br>
+                    <input type="text" class="form-control" placeholder="Ingrese nombre de usuario" id="loginInput"> <br>
+                    <button type="button" class="btn" style="float:right" onclick="login()">Ingresar</button>
+                </div>
                 <br><br>
-                <button onclick="MandarNombre">Ingresar</button>
             </div>
         </div>
         <div class="seccion2_izq">
-            <div>
+            
+            <div class="element_header infouser">
                 <img center src="https://static.vecteezy.com/system/resources/thumbnails/002/318/271/small/user-profile-icon-free-vector.jpg" width="80" height="80" align="center">
-                <br>Bienvenido:
+                
+                <span id="loginUser">
+                    Iniciar sesión
+                </span>
             </div>
             
         </div>
